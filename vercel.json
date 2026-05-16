@@ -1,0 +1,23 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "regions": ["iad1"],
+  "rewrites": [
+    { "source": "/painel", "destination": "/paineldodono" },
+    { "source": "/admin", "destination": "/paineldodono" },
+    { "source": "/oferta", "destination": "/index" },
+    { "source": "/promo", "destination": "/index" },
+    { "source": "/copa", "destination": "/index" },
+    { "source": "/pedido-confirmado", "destination": "/index" },
+    { "source": "/obrigado", "destination": "/index" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

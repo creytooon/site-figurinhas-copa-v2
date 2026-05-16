@@ -1,0 +1,25 @@
+{
+  "orders": [
+    {
+      "id": "CC26-128481",
+      "total": 151.905,
+      "items": [
+        {
+          "id": "kit-24",
+          "name": "Álbum Copa do Mundo 2026™ + 24 Envelopes",
+          "price": 159.9,
+          "qty": 1
+        }
+      ],
+      "customer": {
+        "name": "joao silva",
+        "email": "tijisdojasd@hotmail.com",
+        "phone": "11952663245"
+      },
+      "paidAt": "2026-05-15T17:10:02.604Z",
+      "status_code": "paid",
+      "tracking_purchase_sent": false
+    }
+  ],
+  "_updatedAt": "2026-05-15T17:10:02.604Z"
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Álbum Copa 2026 · Álbum & Figurinhas Oficiais</title>
+  <meta name="description" content="A festa começou! Álbuns, envelopes, kits e boxes da Copa do Mundo 2026. Frete grátis acima de R$ 199, parcele em até 12x. #VemPraCopa" />
+  <meta name="theme-color" content="#00B14F" />
+  <link rel="canonical" href="https://albumcopa.com" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://albumcopa.com" />
+  <meta property="og:title" content="Álbum Copa 2026 · É festa, é Brasil, é Copa" />
+  <meta property="og:description" content="Álbuns, envelopes e kits da Copa 2026. Pix, cartão e parcelamento sem juros." />
+  <meta property="og:image" content="https://albumcopa.com/album_copa_logo_principal.png" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://albumcopa.com/album_copa_logo_principal.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=20260513-7" />
+  <link rel="stylesheet" href="checkout-flow.css?v=20260513-7" />
+  <link rel="stylesheet" href="marketing.css?v=20260513-7" />
+  <link rel="icon" type="image/png" sizes="32x32" href="album_copa_icone_isolado.png" />
+  <link rel="apple-touch-icon" href="album_copa_icone_isolado.png" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Álbum Copa 2026","url":"https://albumcopa.com","logo":"https://albumcopa.com/album_copa_logo_principal.png"}</script>
+
+  <!-- Marketing & Tracking (Google Ads, Meta Pixel, TikTok Pixel). -->
+  <!-- IDs configuradas em variáveis de ambiente da Vercel — ver MARKETING.md. -->
+  <!-- Fluxo: /api/marketing-config injeta window.MARKETING_CONFIG_FROM_ENV → -->
+  <!--        marketing.js inicializa os pixels com essas IDs.                -->
+  <script src="marketing.js?v=20260513-7"></script>
+  <script src="/api/marketing-config"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/qrcode-generator@1.4.4/qrcode.js"></script>
+
+  <!-- IMPORTANTE: data.jsx precisa carregar antes do app.jsx, e como text/babel. -->
+  <!-- E /api/live-data precisa carregar ANTES de data.jsx pra que o data.jsx leia os dados publicados pelo admin. -->
+  <script src="/api/live-data"></script>
+  <script type="text/babel" src="tweaks-panel.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="ios-frame.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="data.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="components.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="additions.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="pages-shop.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="pages-flow.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="pages-account.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="pages-marketing.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="pages-paid.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="recovery.jsx?v=20260513-7"></script>
+  <script type="text/babel" src="app.jsx?v=20260513-7"></script>
+</body>
+</html>

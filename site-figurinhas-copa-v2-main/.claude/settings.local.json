@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk git *)",
+      "Bash(git checkout *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(rtk ls *)",
+      "Bash(rtk npx *)",
+      "mcp__8edf5311-3e9c-4958-8f97-5a10efec5c19__apply_migration",
+      "mcp__8edf5311-3e9c-4958-8f97-5a10efec5c19__execute_sql"
+    ]
+  }
+}

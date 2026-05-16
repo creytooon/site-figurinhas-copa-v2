@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /paineladmin.html
+
+Sitemap: https://vocenacopa.com.br/sitemap.xml
